@@ -2,7 +2,7 @@
     "name": "alwayson-insights",
     "displayName": "AlwaysOn Insights",
     "description": "Sql Server AlwaysOn insights",
-    "version": "0.2.0",
+    "version": "0.2.0-beta1",
     "publisher": "matticusau",
     "license": "MIT",
     "author": {
