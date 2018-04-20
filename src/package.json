@@ -15,8 +15,7 @@
         "url": "https://github.com/matticusau/sqlops-alwayson-insights"
     },
     "bugs": {
-        "url": "https://github.com/matticusau/sqlops-alwayson-insights/issues",
-        "email": "matt.lavery@outlook.com"
+        "url": "https://github.com/matticusau/sqlops-alwayson-insights/issues"
     },
     "engines": {
         "vscode": "^1.22.0",
