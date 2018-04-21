@@ -2,9 +2,10 @@
     "name": "alwayson-insights",
     "displayName": "AlwaysOn Insights",
     "description": "Sql Server AlwaysOn insights",
-    "version": "0.2.0-beta1",
+    "version": "0.2.0",
     "publisher": "matticusau",
     "license": "MIT",
+    "icon": "images/icon.png",
     "author": {
         "email": "matt.lavery@outlook.com",
         "name": "Matt Lavery",
