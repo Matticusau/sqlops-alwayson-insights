@@ -154,6 +154,46 @@
                         "actions": null
                     }
                 }
+            },
+            {
+                "id": "alwayson-ag-db-autoseed.insight",
+                "contrib": {
+                    "queryFile": "./sql/alwayson-ag-db-autoseed.sql",
+                    "type": {
+                        "pie": {
+                            "dataDirection": "vertical",
+                            "dataType": "number",
+                            "legendPosition": "none",
+                            "labelFirstColumn": false,
+                            "columnsAsLabels": false
+                        }
+                    },
+                    "details": {
+                        "queryFile": "./sql/alwayson-ag-db-autoseed-detail.sql",
+                        "label": {
+                            "icon": "database",
+                            "column": "database_name",
+                            "state": [
+                                {
+                                    "condition": {
+                                        "if": "not",
+                                        "greaterthan": "NULL"
+                                    },
+                                    "color": "red"
+                                },
+                                {
+                                    "condition": {
+                                        "if": "equals",
+                                        "equals": "NULL"
+                                    },
+                                    "color": "green"
+                                }
+                            ]
+                        },
+                        "value": "failure_state",
+                        "actions": null
+                    }
+                }
             }
         ]
         ,
@@ -192,6 +232,16 @@
                             },
                             "widget": {
                                 "alwayson-ag-db-rpo-rto.insight": {}
+                            }
+                        },
+                        {
+                            "name": "Db Auto Seeding",
+                            "gridItemConfig": {
+                                "sizex": 1,
+                                "sizey": 1
+                            },
+                            "widget": {
+                                "alwayson-ag-db-autoseed.insight": {}
                             }
                         }
                     ]
