@@ -4,7 +4,8 @@ All notable changes to the "alwayson-insights" extension will be documented in t
 
 ## [Unreleased]
 
-- None
+- Product branding changes from "AlwaysOn" to "Always On" - issue #6
+- Changed alwayson-insights.tab displayname from "AlwaysOn Insights" to "Availability Groups" - issue #6
 
 ## [0.2.0]
 

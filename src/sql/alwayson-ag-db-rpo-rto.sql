@@ -1,6 +1,6 @@
 -- 
 -- Author: Matticusau
--- Purpose: Provides summary data for the AlwaysOn DB RPO RTO Insights Widget
+-- Purpose: Provides summary data for the Always On DB RPO RTO Insights Widget
 -- License: https://github.com/Matticusau/sqlops-widgets/blob/master/LICENSE
 -- 
 SELECT ar.replica_server_name [replica_name]

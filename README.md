@@ -1,6 +1,6 @@
-# AlwaysOn-Insights widget
+# AlwaysOn-Insights Sql Ops Studio Extension
 
-This collection of widgets are designed to provide insights into AlwaysOn Availability Group components to assist DBA's or similar in managing their environment.
+This collection of widgets are designed to provide insights into Always On Availability Group components to assist DBA's or similar in managing their environment.
 
 Where possible all of these widgets will include more detail when you click *_Show Details_* from the widget menu.
 

@@ -1,8 +1,8 @@
 {
     "extensionId": "<next available extension number, e.g. 15>",
     "extensionName": "alwayson-insights",
-    "displayName": "AlwaysOn Insights",
-    "shortDescription": "Sql Server AlwaysOn insights",
+    "displayName": "Always On Insights",
+    "shortDescription": "Sql Server Always On insights",
     "publisher": {
       "displayName":"matticusau",
       "publisherId": "matticusau",

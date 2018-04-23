@@ -1,7 +1,7 @@
 {
     "name": "alwayson-insights",
-    "displayName": "AlwaysOn Insights",
-    "description": "Sql Server AlwaysOn insights",
+    "displayName": "Always On Insights",
+    "description": "Sql Server Always On insights",
     "version": "0.2.1",
     "publisher": "matticusau",
     "license": "MIT",
@@ -199,9 +199,9 @@
         ,
         "dashboard.tabs": [
             {
-                "id": "alwayson-insights.tab",
-                "title": "AlwaysOn Insights",
-                "description": "AlwaysOn insights and widgets",
+                "id": "alwayson-ag-insights.tab",
+                "title": "Availability Groups",
+                "description": "Always On AG insights and widgets",
                 "container": {
                     "widgets-container": [
                         {
