@@ -6,6 +6,8 @@ All notable changes to the "alwayson-insights" extension will be documented in t
 
 - Product branding changes from "AlwaysOn" to "Always On" - issue #6
 - Changed alwayson-insights.tab displayname from "AlwaysOn Insights" to "Availability Groups" - issue #6
+- Fix AG Auto Seed pie values to be percentage not count
+- Fix size of pie charts in dashboad tab
 
 ## [0.2.0]
 
